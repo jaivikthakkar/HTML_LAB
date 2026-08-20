@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Page Title</title>
+    <link rel='stylesheet' href='main.css'>
+</head>
+
+<body>
+
+    <head>
+        <h1 align="center">DARSHAN UNIVERSITY</h1>
+        <h2 align="center">Department if Computer Engineering</h2>
+        <h3 align="center">ONLINE MCQ TEST</h3>
+        <a href="#studentinfo">studentinfo</a>
+    </head>
+    <main>
+        <form>
+            <hr>
+            <section id="studentinfo">
+                <fieldset>
+                    <legend>Student Information</legend>
+                    <article>
+                        <label for="studentname">Student Name :</label>
+                        <input type="text" name="studentname" id="studentname" required><br>
+                    </article>
+                    <p>
+
+                    </p>
+                    <article>
+                        <label for="entrollmentnumber">Enrollment Number :</label>
+                        <input type="tex" name="entrollmentnumber" id="entrollmentnumber" pattern="^[0-9]{2}[0-9]{4}$"
+                            required>
+
+
+
+                        <label for="number">number</label>
+                        <input type="number" maxlength="10" name="number" id="number" required>
+                        <!-- pattern="[0-9]{10}" -->
+                    </article>
+                    <p>
+
+                    </p>
+                    <article>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+                    </article>
+
+                    <p>
+
+                    </p>
+                    <article>
+                        <label for="semester">Semester :</label>
+                        <select>
+                            <option value="" disabled>--select Branch__</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                        </select>
+                    </article>
+                    <p>
+
+                    </p>
+                    <article>
+                        <label for="branch">Branch</label>
+                        <select>
+                            <option></option>
+                            <option value="BBA">BBA</option>
+                            <option value="BCA">BCA</option>
+                            <option value="B.com">B.com</option>
+                            <option value="M.com">M.com</option>
+                            <option value="B.teach">B.teach</option>
+                            <option value="M.teach">M.teach</option>
+                        </select>
+                    </article>
+                    <p>
+
+                    </p>
+                    <article>
+                        <label for="dob">Test Date</label>
+                        <input type="date" name="dob" id="dob">
+                    </article>
+                </fieldset>
+                <textarea></textarea>
+                <input type="submit" id="submit">
+            </section>
+        </form>
+    </main>
+
+</body>
+
+</html>
