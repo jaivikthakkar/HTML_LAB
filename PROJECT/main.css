@@ -1,0 +1,10 @@
+nav{
+    display: flex;
+}
+.left{
+    margin-right: 950px;
+}
+.insta_logo{
+    width: 40px;
+}
+
