@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Page Title</title>
+    <link rel='stylesheet' href='main.css'>
+    <style>
+        div {
+            background-color: red;
+            height: 200px;
+            width: 200px;
+            animation-name: move;
+            animation-duration: 4s;
+            position: relative;
+        }
+
+        @keyframes move {
+            0% {
+                top: 0;
+                left: 0;
+                background-color: blue;
+            }
+
+            25% {
+                top: 0;
+                left: calc(100vw-220px);
+                background-color: brown;
+            }
+
+            50% {
+                top: calc(100vh-220px);
+                left: calc(100vw-220px);
+                background-color: black;
+            }
+
+            75% {
+                top: calc(100vh-220px);
+                left: 0px;
+                background-color: chartreuse;
+            }
+
+            100% {
+                top: 0px;
+                left: 0px;
+                background-color: coral;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+
+    </div>
+</body>
+
+</html>
