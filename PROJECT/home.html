@@ -6,133 +6,85 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>Home</title>
     <link rel='stylesheet' href='main.css'>
+    <link rel='stylesheet' href='home.css'>
 </head>
 
 <body>
+
+    <div>
+        <img src="../midia/new_new__log.png" alt="logo" class="logo" width="250px">
+    </div>
+
     <nav>
-        <div class="left">
-            <a href="../PROJECT/home.html">
-                <h1>Movie Explorer</h1>
-            </a>
-            <ul>
-                <li>
-                    <a href="../PROJECT/home.html">Home Page</a>
-                </li>
-                <li>
-                    <a href="../PROJECT/catalogue_1.html">Catalogue</a>
-                </li>
-                <li>
-                    <a href="../PROJECT/movie_ditails.html">Movie Detils</a>
-                </li>
-                <li>
-                    <a href="../PROJECT/aboutus.html">About&Contect</a>
-                </li>
-            </ul>
-        </div>
-        <div class="right">
-            <h1>Browse by Categories</h1>
-            <ul>
-                <li>
-                    <a href="../PROJECT/action_movies.html">Action Movies</a>
-                </li>
-                <li>
-                    <a href="../PROJECT/science_fiction.html">Science Fiction</a>
-                </li>
-                <li>
-                    <a href="../PROJECT/comady.html">Comady</a>
-                </li>
-                <li>
-                    <a href="../PROJECT/dram_romance.html">Drama & Romance</a>
-                </li>
-            </ul>
+        <div class="navi">
+            <div class="link">
+                <a href="../PROJECT/home.html">Home Page</a>
+            </div>
+            <div class="link">
+                <a href="../PROJECT/catalogue_1.html">Catalogue</a>
+            </div>
+            <div class="link">
+                <a href="../PROJECT/movie_ditails.html">Movie Detils</a>
+            </div>
+            <div class="link">
+                <a href="../PROJECT/aboutus.html">About&Contect</a>
+            </div>
         </div>
     </nav>
     <hr>
     <main>
-        <div>
-            <h1>Welcome to Movie Explorer Portal</h1>
-            <p>
-                Discover top-rated cinematic masterpieces, explore detailed cast profiles, and browse movies across
-                various genres. Designed for B.Tech Web Designing Lab.
-            </p>
-            <a href="../PROJECT/catalogue_1.html">Explore Full Movie Catalogue-></a>
+        <div class="mai_sherch_area">
+            <div class="welcome_note">
+                <div>Welcome to</div>
+                <div class="welcome_note_sepret">
+                    <div class="welcome_note_left">Movie</div>
+                    <div class="welcome_note_right">Max</div>
+                </div>
+            </div>
+            <div class="serch_bar">
+                <form>
+                    <label for="m_name">Search : </label>
+                    <input type="text" id="m_name" name="m_name">
+                </form>
+            </div>
         </div>
-        <div>
-            <h2>Trending Movies</h2>
-            <p>Hand-picked top-rated films features for this week</p>
-            <img src="../midia/interstellar.webp" alt="Interstellar" width="30%">
-            <h2>Interstellar</h2>
-            <p><b>Genre:</b>Scince Fiction|<b>Rating:</b>★ 8.7</p>
-            <p><b>Director:</b>Christopher Nolan</p>
-            <p><b>Duration:</b>169 minutes|<b>Language:</b>English</p>
-            <p>
-                Once upon a time in a quiet village, a little boy named Aarav discovered a hidden garden behind his
-                home.....
-            </p>
-            <a href="../PROJECT/movie_ditails.html">View Details Page</a>
-            <pre>
-
-
-
-
-
-
-
-            </pre>
-            <img src="../midia/spiderman.webp" width="30%" alt="Spider-Man: Brand New Day">
-            <h2>Spider-Man: Brand New Day</h2>
-            <p><b>Genre:</b>Action|<b>Rating:</b>★ 8.1</p>
-            <p><b>Director:</b>Destin Daniel Cretton</p>
-            <p><b>Duration:</b>145 minutes|<b>Language:</b>English</p>
-            <p>
-                A forgotten Peter Parker lives alone as a full-time Spider-Man until mounting pressure triggers
-                adangerous change and a
-                powerful new enemy emerges......
-            </p>
-            <a href="../PROJECT/movie_ditails.html">View Details Page</a><br>
-            <pre>
-
-
-
-
-
-
-            </pre>
-            <img src="../midia/brahmastra.webp" width="30%" alt="Brahmāstra: Part One – Shiva">
-            <h2>Brahmāstra: Part One – Shiva</h2>
-            <p><b>Genre:</b>Action/Adventure|<b>Rating:</b>★ 5.6</p>
-            <p><b>Director:</b>Ayan Mukerji</p>
-            <p><b>Duration:</b>207 minutes|<b>Language:</b>Hindi</p>
-            <p>
-                A DJ with superpowers and his ladylove embark on a mission to protect the Brahmastra, a weapon of
-                enormous energy,from dark forces closing in on them.....
-            </p>
-            <a href="../PROJECT/movie_ditails.html">View Details Page</a><br>
-            <pre>
-
-
-
-
-
-
-            </pre>
-            <img src="../midia/pushpa.jpg" alt="Pushpa 2:The Rule" width="30%">
-            <h2>Pushpa 2:The Rule</h2>
-            <p><b>Genre:</b>Action|<b>Rating:</b>★ 6.0</p>
-            <p><b>Director:</b>Bandreddi Sukumar</p>
-            <p><b>Duration:</b>200 minutes|<b>Language:</b>Hindi</p>
-            <p>Pushpa Rajs rise from a smuggler to a feared syndicate leader. After humiliating SP Bhanwar Singh
-                Shekhawat Pushpa.....
-            </p>
-            <a href="../PROJECT/movie_ditails.html">View Details Page</a><br>
-            <pre>
-
-
-
-
-
-
-            </pre>
+        <div class="category">
+            <div class="category_hading">Category :</div>
+            <div class="category_img">
+                <div class="romance">
+                    <a href="../PROJECT/dram_romance.html">
+                        <img src="../midia/romantc_category.jpeg" alt="romantic" class="category_romance">
+                    </a>
+                </div>
+                <div class="sci-fi">
+                    <a href="../PROJECT/science_fiction.html">
+                        <img src="../midia/SCI-Fi_category.jpeg" alt="Sci-fi" class="category_sci-fi">
+                    </a>
+                </div>
+                <div class="comady">
+                    <a href="../PROJECT/comady.html">
+                        <img src="../midia/comady_catehory.jpeg" alt="comady" class="category_comady">
+                    </a>
+                </div>
+                <div class="action">
+                    <a href="../PROJECT/action_movies.html">
+                        <img src="../midia/action_category.jpeg" alt="action" class="category_action">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="trending">
+            <div class="trending_titel">Trending Movies</div>
+            <div class="trending_movies">
+                <a href="../PROJECT/movie_ditails.html"><img src="../midia/interstellar.webp" alt="Interstellar" class="trending_movies_inside"></a>
+                <a href="../PROJECT/movie_ditails.html"><img src="../midia/spiderman.webp" alt="Spider-Man: Brand New Day" class="trending_movies_inside"></a>
+                <a href="../PROJECT/movie_ditails.html"><img src="../midia/brahmastra.webp" alt="Brahmāstra: Part One – Shiva" class="trending_movies_inside"></a>
+                <a href="../PROJECT/movie_ditails.html"><img src="../midia/pushpa.jpg" alt="Pushpa 2:The Rule" class="trending_movies_inside"></a>
+                <a href="../PROJECT/movie_ditails.html"><img src="../midia/fastx.webp" alt="fasrx" class="trending_movies_inside"></a>
+                <a href="../PROJECT/movie_ditails.html"><img src="../midia/Iron_Man_(2008_film)_poster.jpg" alt="ironman" class="trending_movies_inside"></a>
+                <a href="../PROJECT/movie_ditails.html"><img src="../midia/herapheri.jpg" alt="heraferi" class="trending_movies_inside"></a>
+                <a href="../PROJECT/movie_ditails.html"><img src="../midia/jothi makkaar.jpg" alt="jothi_makkar" class="trending_movies_inside"></a>
+            </div>
         </div>
         <div>
             <h1>Portal Summary Analytics</h1>
@@ -164,7 +116,7 @@
                 </li>
             </ul>
         </div>
-    </main>\
+    </main>
     <br>
     <br>
     <hr>

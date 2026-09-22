@@ -7,6 +7,10 @@
     <title>Page Title</title>
     <link rel='stylesheet' href='main.css'>
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         .maini {
             height: 140px;
             margin-right: 200px;
@@ -92,13 +96,38 @@
             padding-top: 5px;
             height: 30px;
         }
+
+        @media screen and (max-width:500px) {
+            footer {
+                background-color: rgb(217, 0, 255)e;
+                text-align: center;
+                padding-top: 5px;
+                height: auto;
+            }
+
+            .row {
+                display: flexbox;
+            }
+
+            .sider {
+                float: left;
+                background-color: rgb(72, 0, 255);
+                margin-right: 2px;
+            }
+
+            nav {
+                display: inline;
+            }
+
+
+        }
     </style>
 </head>
 
 <body>
     <div class="main">
         <nav>
-            <div><img src="../../midia/mishan magal.jpg" class="maini"  alt="kk"></div>
+            <div><img src="../../midia/mishan magal.jpg" class="maini" alt="kk"></div>
             <div class="navi">Home</div>
             <div class="navi">About</div>
             <div class="navi">Contact</div>
@@ -134,24 +163,24 @@
                     <p>B.tech/M.tech</p>
                 </div>
                 <div class="row">
-                    <img src="../../midia/pushpa.jpg" class="img"  alt="kk">
+                    <img src="../../midia/pushpa.jpg" class="img" alt="kk">
                     <p>arjun bala</p>
                     <p>B.tech/M.tech</p>
                 </div>
                 <div class="row">
-                    <img src="../../midia/pushpa.jpg" class="img"  alt="kk">
+                    <img src="../../midia/pushpa.jpg" class="img" alt="kk">
                     <p>arjun bala</p>
                     <p>B.tech/M.tech</p>
                 </div>
 
                 <br>
                 <div class="row">
-                    <img src="../../midia/pushpa.jpg" class="img"  alt="kk">
+                    <img src="../../midia/pushpa.jpg" class="img" alt="kk">
                     <p>arjun bala</p>
                     <p>B.tech/M.tech</p>
                 </div>
                 <div class="row">
-                    <img src="../../midia/pushpa.jpg" class="img"  alt="kk">
+                    <img src="../../midia/pushpa.jpg" class="img" alt="kk">
                     <p>arjun bala</p>
                     <p>B.tech/M.tech</p>
                 </div>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab-8</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            padding-left: 10px;
+
+        }
+
+        header {
+            background-color: violet;
+            color: white;
+        }
+
+        .content {
+            padding: 10px;
+            background-color: orange;
+            height: 350px;
+        }
+        footer {
+            background-color : cadetblue;
+            color :azure
+        }
+        .entry {
+            background-color: black;
+            color: white;
+            margin-top: 20px;
+            height: 30px;
+        }
+        .left {
+            width: 60%;
+            float: left;
+
+        }
+        .right {
+            float: right;
+            width: 30%;
+            height: 110px;
+            color: white;
+            background-color: black;
+        }
+        @media screen and (max-width:500px) {
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                padding-left: 10px;
+
+            }
+
+            header {
+                background-color: beige;
+                color: white;
+            }
+
+            .content {
+                padding: 10px;
+                background-color: chartreuse;
+                height: 350px;
+            }
+
+            footer {
+                background-color: violet;
+                color: white;
+            }
+
+            .entry {
+                background-color: rgb(105, 105, 105);
+                color: white;
+                margin-top: 20px;
+                height: 30px;
+            }
+
+            .left {
+                width: 90%;
+                float: none;
+            }
+
+            .right {
+                float: none;
+                width: 90%;
+                height: 30px;
+                color: white;
+                background-color: black;
+                margin-top: 25px;
+
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main"></div>
+    <div>Page</div>
+    <header>Header</header>
+    <div class="content">
+        <div>Content</div>
+
+
+        <div class="left">
+            <div class="entry">Entry</div>
+            <div class="entry">Entry</div>
+            <div class="entry">Entry</div>
+        </div>
+
+
+        <div class="right">Sidebar</div>
+    </div>
+
+    <footer>© Darshan University,Rajkot</footer>
+    </div>
+
+</body>
+
+</html>

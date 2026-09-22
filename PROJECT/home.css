@@ -1,0 +1,156 @@
+* {
+    color: aliceblue;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.945);
+}
+.navi {
+    display: flex;
+    gap: 250px;
+    padding-left: 100px;
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+a {
+    text-decoration: none;
+    font-size: larger;
+}
+
+.link {
+    padding: 8px;
+}
+
+.link:hover {
+    border: 1px;
+    padding: 8px;
+    border-radius: 5px;
+    /* background-color: rgba(220, 213, 213, 0.646); */
+    background-color: rgba(128, 128, 128, 0.25);
+}
+.welcome_note{
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+   padding-top: 20px;
+}
+.welcome_note_sepret{
+
+    display: flex;
+    margin-left: 60px;
+}
+.welcome_note_right{
+    color: red;
+}
+.serch_bar{
+    padding-top: 20px;
+    margin-left: 210px;
+    font-size: xx-large;
+    margin-top: 30px;
+
+
+}
+.mai_sherch_area{
+    display: flex;
+}
+label{
+    /* font-weight: 200; */
+    height: 33px;
+    font-style: initial;
+    padding-right: 50px;
+}
+input{
+    height: 33px;
+    width: 700px;
+    border-radius: 7px;
+}input:focus{
+
+    outline: none;
+    border: 3px solid rgba(74, 74, 230, 0.678) ;
+}
+.category{
+    margin-top: 50px;
+    padding: 20px;
+}
+.category_hading{
+    font-size: 45px;
+    margin-bottom: 40px;
+    color: red;
+}
+.category_img{
+    display: flex;
+}
+.category_romance{
+    margin-left: 75px;
+    height: 120px;
+    width: 250px;
+    border-radius: 12px;
+}
+.category_sci-fi {
+    margin-left: 85px;
+    height: 120px;
+    width: 250px;
+    border-radius: 12px;
+}
+.category_comady{
+    margin-left: 95px;
+    height: 120px;
+    width: 250px;
+    border-radius: 12px;
+}
+.category_action{
+    margin-left: 105px;
+    height: 120px;
+    width: 250px;
+    border-radius: 12px;
+}
+.category_romance:hover {
+    margin-left: 75px;
+    height: 120px;
+    width: 250px;
+    border-radius: 12px;
+    transform: scale(1.1);
+}
+
+.category_sci-fi:hover{
+    margin-left: 85px;
+    height: 120px;
+    width: 250px;
+    border-radius: 12px;
+    transform: scale(1.1);
+}
+
+.category_comady:hover {
+    margin-left: 95px;
+    height: 120px;
+    width: 250px;
+    border-radius: 12px;
+    transform: scale(1.1);
+}
+
+.category_action:hover {
+    margin-left: 105px;
+    height: 120px;
+    width: 250px;
+    border-radius: 12px;
+    transform: scale(1.1);
+}
+.trending_titel{
+    font-size: xx-large;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.trending_movies_inside{
+    width: 20%;
+    padding: 30px;
+}
+.trending_movies_inside:hover{
+    transform: scale(1.1);
+}
+.trending_movies{
+    /* height: 50px;
+    width: 70px; */
+    padding: 40px;
+    display: flexbox;
+
+}
