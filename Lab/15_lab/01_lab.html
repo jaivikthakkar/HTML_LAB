@@ -27,6 +27,7 @@
         .main {
             height: 740px;
             background-color: antiquewhite;
+            /* display: flexbox; */
         }
 
         .main_titel {
@@ -40,13 +41,16 @@
             height: 400px;
             width: 300px;
             margin-left: 100px;
-            background-color: rgb(213, 128, 16);
-            border-radius: 30px;
+            /* background-color: rgb(213, 128, 16); */
+            /* border: 1px solid black;
+            border-radius: 30px; */
         }
 
         .upper {
             height: 100px;
             background-color: rgba(128, 128, 128, 0.945);
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
         }
 
         .box_box {
@@ -58,33 +62,59 @@
 
 
         }
-        .upper_text{
+
+        .upper_text {
             font-size: 7px;
-            margin-left: 100px ;
+            margin-left: 100px;
         }
-        .upper_down_text{
+
+        .upper_down_text {
             font-size: x-large;
             margin-top: 10px;
             margin-left: 100px;
         }
-        .midel_box{
+
+        .midel_box {
             height: 90px;
             background-color: white;
             color: black;
             font-size: xx-large;
             padding-left: 90px;
         }
-        .last{
+
+        .last {
             height: 210px;
             background-color: rgb(255, 213, 0);
             font-size: 200px;
             padding-left: 90px;
-        }
-        .footer{
-            background-color: rgb(4, 4, 57);
-            color: white;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+
         }
 
+       .main_part{
+        display: flex;
+       }
+       .main_titel-left{
+        margin-left: 300px;
+        margin-top: 30px;
+        padding: 20px;
+       }
+       p{
+        margin-top: 40px;
+        font-size: medium;
+       }
+       button{
+        background-color: orange;
+        color: black;
+       }
+
+        .footer {
+            background-color: rgb(4, 4, 57);
+            color: white;
+            margin-top: 20px;
+            height: 230px;
+        }
     </style>
 </head>
 
@@ -97,23 +127,30 @@
     </div>
     <div class="main">
         <div class="main_titel">You dont know JavaScript</div>
-        <div class="box">
-            <div class="upper">
-                <div class="box_box">OREILLY</div>
-                <div class="upper_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                         Debitis est, nobis atque quod praesentium distinctio magni
-                                                      Debitis est, nobis atque quod praesentium distinctio magni </div>
-                <div class="upper_down_text">KYLE SIMPSON</div>
+        <div class="main_part">
+            <div class="box">
+                <div class="upper">
+                    <div class="box_box">OREILLY</div>
+                    <div class="upper_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Debitis est, nobis atque quod praesentium distinctio magni
+                        Debitis est, nobis atque quod praesentium distinctio magni </div>
+                    <div class="upper_down_text">KYLE SIMPSON</div>
+                </div>
+                <div class="midel_box" a>
+                    <div class="midel_box_upper">COMPLETE</div>
+                    <div class="midel_box_lower">SERIES</div>
+                </div>
+                <div class="last">
+                    <div>JS</div>
+                </div>
             </div>
-            <div class="midel_box" a>
-                <div class="midel_box_upper">COMPLETE</div>
-                <div class="midel_box_lower">SERIES</div>
-            </div>
-            <div class="last">
-                <div>JS</div>
+            <div class="main_titel-left" style="text-align: center;">
+                <p>Don't just dirf horugh javascripy </p>
+                <p>understand how javascript works</p>
+                <p> start your journay throught the bumpy side of javasript</p>
+                <button>ORDER YOUR COPY NOW</button>
             </div>
         </div>
-        <div class="main_titel-left"></div>
         <div class="footer">
 
         </div>
