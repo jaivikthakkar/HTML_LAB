@@ -5,62 +5,175 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <style>
-        .nav{
-            width: 100%;
-            height: 75px;
+        .container {
+            background-color: rgba(40, 45, 49, 0.936);
+            height: 900px;
+        }
+
+        .header {
             background-color: black;
             display: flex;
-
-        }
-        .nav_img{
-            margin-right: 400px;
-
+            padding: 20px;
         }
 
-        .category{
+        .logo {
             display: flex;
-            margin-left: 30px;
-            margin-top: 20px;
-
-        }
-        .a1{
-            margin-right: 45px;
-        }
-        .a1_img{
-            margin-left: 30px;
         }
 
+        .logo img {
+            height: 60px;
+            width: 80px;
+        }
+
+        .logo-detail {
+            align-content: center;
+            font-family: 'Courier New', Courier, monospace;
+            color: white;
+        }
+
+        .nav button {
+            border: 1px solid;
+            border-radius: 5px;
+            background-color: aqua;
+            margin-left: 5px;
+        }
+
+        .nav a img {
+            height: 15px;
+            width: 15px;
+            margin-left: 5px;
+            border-radius: 5px;
+        }
+
+        .nav a {
+            color: white;
+            margin-left: 15px;
+            text-decoration: none;
+        }
+
+        .nav {
+            margin-left: 700px;
+            align-content: center;
+        }
+
+        .mid img {
+            margin: 5% 5% 0 5%;
+            width: 90%;
+            height: 150px;
+            margin-right: 50px;
+        }
+
+        .lower {
+            display: flex;
+            margin: 5%;
+            justify-content: space-between;
+        }
+
+        .img img {
+            height: 220px;
+            width: 220px;
+            border-radius: 10px;
+        }
+
+        .detail {
+            width: 200px;
+            background-color: rgb(77, 122, 173);
+            padding: 10px;
+            position: absolute;
+            bottom: 40px;
+            border-radius: 10px;
+        }
+
+        .detail button {
+            align-content: center;
+            border-radius: 10px;
+            background-color: rgb(0, 26, 255);
+            margin: 10px 0 10px 50px;
+        }
+
+        .detail h3 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
     </style>
 </head>
 
-
 <body>
-    <div class="nav">
-        <div class="nav_img"><img src="../../midia/SCI-Fi_category.jpeg" alt="not found" width="100px"></div>
-        <div class="category">
-            <div class="a1">
-                <form><select name="" id="">
-                        <option value="" selected disabled>HTML templett</option>
-                    </select>
-                </form>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <div class="logo-detail"><i class="fa-solid fa-guitar"></i>SoundAmp</div>
             </div>
-            <div class="a1">
-                <form><select name="" id="">
-                        <option value="" selected disabled>HTML templett</option>
-                    </select>
-                </form>
+            <div class="nav">
+                <a href="">HTML Template &#9660;</a>
+                <a href="">More Html Template &#9660;</a>
+                <button>Download Now</button>
+                <a href=""><i class="fa-brands fa-google"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
             </div>
-            <div class="a1">
-                <button>DOWNLOD NOW</button>
+        </div>
+        <div class="mid">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLMRJa-9aSPry6VMKDsH5oOtzy2cRHxJxXz3lkoL9qtmDoTw96V7Jgm6E&s=10"
+                alt="">
+        </div>
+        <div class="lower">
+            <div class="card">
+                <div class="img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsubI1xnS2EsbFC7IKOtHXy3o2yp5zNGHX8-mLk-0nVw&s"
+                        alt="">
+                </div>
+                <div class="detail">
+                    10/05/2018<br>
+                    <h3> Night Lesor Show</h3><br>
+                    hip-hop mb Dance<br>
+                    we are happy to announce this special laser show<br>
+                    <button>See More</button>
+                </div>
             </div>
-            <div class="a1">
-                <img src="../../midia/insta_logo.png" alt="not found" width="50px" class="a1_img">
-                <img src="../../midia/insta_logo.png" alt="not found" width="50px" class="a1_img">
-                <img src="../../midia/insta_logo.png" alt="not found" width="50px" class="a1_img">
-                <img src="../../midia/insta_logo.png" alt="not found" width="50px" class="a1_img">
+            <div class="card">
+                <div class="img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsubI1xnS2EsbFC7IKOtHXy3o2yp5zNGHX8-mLk-0nVw&s"
+                        alt="">
+                </div>
+                <div class="detail">
+                    10/05/2018<br>
+                    <h3>Night Lesor Show</h3><br>
+                    hip-hop mb Dance<br>
+                    we are happy to announce this special laser show<br>
+                    <button>See More</button>
+                </div>
             </div>
-
+            <div class="card">
+                <div class="img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsubI1xnS2EsbFC7IKOtHXy3o2yp5zNGHX8-mLk-0nVw&s"
+                        alt="">
+                </div>
+                <div class="detail">
+                    10/05/2018<br>
+                    <h3> Night Lesor Show </h3><br>
+                    hip-hop mb Dance<br>
+                    we are happy to announce this special laser show<br>
+                    <button>See More</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsubI1xnS2EsbFC7IKOtHXy3o2yp5zNGHX8-mLk-0nVw&s"
+                        alt="">
+                </div>
+                <div class="detail">
+                    10/05/2018<br>
+                    <h3> Night Lesor Show</h3><br>
+                    hip-hop mb Dance<br>
+                    we are happy to announce this special laser show<br>
+                    <button>See More</button>
+                </div>
+            </div>
         </div>
     </div>
 </body>

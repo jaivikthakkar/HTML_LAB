@@ -154,3 +154,23 @@ input{
     display: flexbox;
 
 }
+footer{
+
+    height: 200px;
+}
+.name{
+    margin-top: 20px;
+    font-size: xx-large;
+    margin-right: 70px;
+
+}
+.footer_div{
+    gap: 20px;
+    display: flex;
+    margin-left: 400px;
+}
+.a1{
+    /* padding-bottom: 20px; */
+    margin-right: 120px;
+}
+

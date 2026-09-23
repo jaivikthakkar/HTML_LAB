@@ -6,234 +6,237 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>Movie-Catalogue</title>
     <link rel='stylesheet' href='main.css'>
+    <link rel="stylesheet" href="catalogue_1.css">
+
 </head>
 
 <body>
-    <nav>
-        <div class="left">
-            <a href="../PROJECT/home.html">
-                <h1>Movie Explorer</h1>
-            </a>
-            <ul>
-                <li>
+        <div>
+            <img src="../midia/new_new__log.png" alt="logo" class="logo" width="250px">
+        </div>
+
+        <nav>
+            <div class="navi">
+                <div class="link">
                     <a href="../PROJECT/home.html">Home Page</a>
-                </li>
-                <li>
+                </div>
+                <div class="link">
                     <a href="../PROJECT/catalogue_1.html">Catalogue</a>
-                </li>
-                <li>
+                </div>
+                <div class="link">
                     <a href="../PROJECT/movie_ditails.html">Movie Detils</a>
-                </li>
-                <li>
+                </div>
+                <div class="link">
                     <a href="../PROJECT/aboutus.html">About&Contect</a>
-                </li>
-            </ul>
-        </div>
-        <div class="right">
-            <h1>Browse by Categories</h1>
-            <ul>
-                <li>
-                    <a href="../PROJECT/action_movies.html">Action Movies</a>
-                </li>
-                <li>
-                    <a href="../PROJECT/science_fiction.html">Science Fiction</a>
-                </li>
-                <li>
-                    <a href="../PROJECT/comady.html">Comady</a>
-                </li>
-                <li>
-                    <a href="../PROJECT/dram_romance.html">Drama & Romance</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <hr>
-    <main>
-        <h1 id="catalogue">Complete Movie Catalogue</h1>
-        <p>Use the form options below to filter and sort through our film database.</p>
-        <form>
-            <h2>Filter & Search Options</h2>
-            <label for="searchtitle/director">Search Title / Director:</label>
-            <input type="search" name="searchtitle/director" id="searchtitle/director"
-                placeholder="e.g.pushpa,3ekka,nolan">
-            <h3>Select Genre:</h3>
-            <input type="radio" id="all genres" name="genres">
-            <label for="all genres">All Genres</label>
-            <input type="radio" id="action" name="genres">
-            <label for="action">Action</label>
-            <input type="radio" id="sciencefiction" name="genres">
-            <label for="sciencefiction">Science Fiction</label>
-            <input type="radio" id="crime" name="genres">
-            <label for="crime">Crime</label>
-            <input type="radio" id="drama" name="genres">
-            <label for="drama">Drama</label><br>
-            <label>Sort Records By:</label>
-            <select name="ti" aria-label="Sort records by">
-                <option selected disabled>Default</option>
-            </select><br>
-            <input type="submit" value="Apply Fillters">
-            <input type="reset" value="Reset All">
-        </form>
+                </div>
+            </div>
+        </nav>
         <hr>
-        <h1 id="all movie records">All Movie Records</h1>
-        <img src="../midia/pushpa.jpg" alt="Pushpa 2:The Rule" width="30%">
-        <h2>Pushpa 2:The Rule</h2>
-        <p><b>Genre:</b>Action|<b>Rating:</b>★ 6.0</p>
-        <p><b>Director:</b>Bandreddi Sukumar</p>
-        <p><b>Duration:</b>200 minutes|<b>Language:</b>Hindi</p>
-        <p>Pushpa Rajs rise from a smuggler to a feared syndicate leader. After humiliating SP Bhanwar Singh Shekhawat,
-            Pushpa.....</p>
-        <a href="../PROJECT/movie_ditails.html">View Details Page</a><br>
-        <pre>
-
-
-
-
-
-
-        </pre>
-        <img src="../midia/interstellar.webp" alt="Interstellar" width="30%">
-        <h2>Interstellar</h2>
-        <p><b>Genre:</b>Scince Fiction|<b>Rating:</b>★ 8.7</p>
-        <p><b>Director:</b>Christopher Nolan</p>
-        <p><b>Duration:</b>169 minutes|<b>Language:</b>English</p>
-        <p>Once upon a time in a quiet village, a little boy named Aarav discovered a hidden garden behind his home.....
-        </p>
-        <a href="../PROJECT/movie_ditails.html">View Details Page</a>
-        <pre>
-
-
-
-
-
-
-
-        </pre>
-        <img src="../midia/bachu-ni-benpani-et00450272-1755604740.avif" width="30%" alt="Bachu Ni Benpani">
-        <h2>Bachu Ni Benpani</h2>
-
-        <p><b>Genre:</b>Comeday|<b>Rating:</b>★ 7.3</p>
-        <p><b>Director:</b>Vipul Mehta</p>
-        <p><b>Duration:</b>129 minutes|<b>Language:</b>Gujarati</p>
-        <p>Bachu was a mischievous boy who loved adventures, while his sister Benpani was calm and wise......</p>
-        <a href="../PROJECT/movie_ditails.html">View Details Page</a><br>
-        <pre>
-
-
-
-
-
-
-        </pre>
-        <img src="../midia/fighter-2024-movie-poster.avif" width="30%" alt="Fighter">
-        <h2>Fighter</h2>
-        <p><b>Genre:</b>Action|<b>Rating:</b>★ 6.1</p>
-        <p><b>Director:</b>Siddharth Anand</p>
-        <p><b>Duration:</b>166 minutes|<b>Language:</b>Hindi</p>
-        <p>A reckless yet brilliant squadron leader and his team of elite fighter pilots face mortal dangers and inner
-            demons as they unite for a deadly mission......</p>
-        <a href="../PROJECT/movie_ditails.html">View Details Page</a><br>
-        <pre>
-
-
-
-
-
-
-        </pre>
-        <img src="../midia/spiderman.webp" width="30%" alt="Spider-Man: Brand New Day">
-        <h2>Spider-Man: Brand New Day</h2>
-        <p><b>Genre:</b>Action|Scince Fiction<b>Rating:</b>★ 8.1</p>
-        <p><b>Director:</b>Destin Daniel Cretton</p>
-        <p><b>Duration:</b>145 minutes|<b>Language:</b>English</p>
-        <p>A forgotten Peter Parker lives alone as a full-time Spider-Man until mounting pressure triggers a dangerous
-            change and a
-            powerful new enemy emerges......</p>
-        <a href="../PROJECT/movie_ditails.html">View Details Page</a><br>
-        <pre>
-
-
-
-
-
-
-        </pre>
-        <img src="../midia/swades.jpg" width="30%" alt="Swades">
-        <h2>Swades</h2>
-        <p><b>Genre:</b>Drama|<b>Rating:</b>★ 8.2</p>
-        <p><b>Director:</b>Ashutosh Gowariker</p>
-        <p><b>Duration:</b>189 minutes|<b>Language:</b>Hindi</p>
-        <p>A successful Indian scientist returns to an Indian village to take his nanny to America with him and in the
-            process
-            rediscovers his roots......</p>
-        <a href="../PROJECT/movie_ditails.html">View Details Page</a><br>
-        <pre>
-
-
-
-
-
-
-        </pre>
-        <img src="../midia/brahmastra.webp" width="30%" alt="Brahmāstra: Part One – Shiva">
-        <h2>Brahmāstra: Part One – Shiva</h2>
-        <p><b>Genre:</b>Action/Adventure|<b>Rating:</b>★ 5.6</p>
-        <p><b>Director:</b>Ayan Mukerji</p>
-        <p><b>Duration:</b>207 minutes|<b>Language:</b>Hindi</p>
-        <p>A DJ with superpowers and his ladylove embark on a mission to protect the Brahmastra, a weapon of enormous
-            energy, from
-            dark forces closing in on them.....</p>
-        <a href="../PROJECT/movie_ditails.html">View Details Page</a><br>
-        <pre>
-
-
-
-
-
-
-        </pre>
-        <img src="../midia/titanic.webp" width="30%" alt="Titanic">
-        <h2>Titanic</h2>
-        <p><b>Genre:</b>Romance/Drama|<b>Rating:</b>★ 8.0</p>
-        <p><b>Director:</b>James Cameron</p>
-        <p><b>Duration:</b>194 Minutes|<b>Language:</b>English</p>
-        <p>A young aristocrat falls in love with a poor artist aboard the luxurious, ill-fated RMS Titanic.</p>
-        <a href="../PROJECT/movie_ditails.html">View Details Page</a><br>
-        <pre>
-
-
-
-
-
-
-        </pre>
+        <div class="mai_sherch_area">
+            <div class="welcome_note">
+                <div class="welcome_note_sepret">
+                    <div class="welcome_note_left">Movie</div>
+                    <div class="welcome_note_right">Max</div>
+                </div>
+            </div>
+            <div class="serch_bar">
+                <form>
+                    <label for="m_name">Search : </label>
+                    <input type="text" id="m_name" name="m_name">
+                    <input type="submit" value="Search" class="submit">
+                </form>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <h1>#Pushpa 2:The Rule</h1>
+        </div>
+        <div class="parti">
+            <div>
+                <img src="../midia/pushpa.jpg" alt="Pushpa 2:The Rule" width="200px" class="catalogue">
+            </div>
+            <div class="catalogue_w">
+                <h2>Pushpa 2:The Rule</h2>
+                <p><b>Rating:</b>★ 6.0</p>
+                <p><b>Genre:</b>Action</p>
+                <p><b>Director:</b>Bandreddi Sukumar</p>
+                <p><b>Duration:</b>200 minutes|<b>Language:</b>Hindi</p>
+                <p><b>Writers : </b>A.R. Prabhav . Rajendra Sapre . Sukumar</p>
+                <p><b>Stars : </b>Allu Arjun . Rashmika Mandanna . Fahadh Faasil</p>
+                <div><a  class="catalogue_w1" href="../PROJECT/movie_ditails.html"><b>View More Ditels</b></a></div>
+            </div>
+        </div>
+        <div>
+            <h1>#Interstellar</h1>
+        </div>
+        <div class="parti">
+            <div>
+                <img src="../midia/interstellar.webp" alt="Interstellar" width="200px" class="catalogue">
+            </div>
+            <div class="catalogue_w">
+                <h2>Interstellar</h2>
+                <p><b>Rating:</b>★ 8.7</p>
+                <p><b>Genre :</b>Science Fiction</p>
+                <p><b>Director:</b>Christopher Nolan</p>
+                <p><b>Duration:</b>169 minutes|<b>Language:</b>English</p>
+                <p><b>Writers : </b>Jonathan Nolan . Christopher Nolan</p>
+                <p><b>Stars : </b>Matthew McConaughey . Anne Hathaway . Jessica Chastain</p>
+                <div><a  class="catalogue_w1" href="../PROJECT/movie_ditails.html"><b>View More Ditels</b></a></div>
+            </div>
+        </div>
+        <div>
+            <h1>#Bachu Ni Benpani</h1>
+        </div>
+        <div class="parti">
+            <div>
+                <img src="../midia/bachu-ni-benpani-et00450272-1755604740.avif" alt="Bachu Ni Benpani" width="200px" class="catalogue">
+            </div>
+            <div class="catalogue_w">
+                <h2>Bachu Ni Benpani</h2>
+                <p><b>Rating:</b>★ 7.3</p>
+                <p><b>Genre:</b>Comeday</p>
+                <p><b>Director:</b>Vipul Mehta</p>
+                <p><b>Duration:</b>129 minutes|<b>Language:</b>Gujarati</p>
+                <p><b>Writers : </b>Vipul Mehta</p>
+                <p><b>Stars : </b>Shah Devarshi . Siddharth Randeria . Yukti Randeria</p>
+                <div><a class="catalogue_w1" href="../PROJECT/movie_ditails.html"><b>View More Ditels</b></a></div>
+            </div>
+        </div>
+        <div>
+            <h1>#Fighter</h1>
+        </div>
+        <div class="parti">
+            <div>
+                <img src="../midia/fighter-2024-movie-poster.avif" alt="Fighter" width="200px" class="catalogue">
+            </div>
+            <div class="catalogue_w">
+                <h2>Fighter</h2>
+                <p><b>Rating:</b>★ 6.1</p>
+                <p><b>Genre:</b>Action</p>
+                <p><b>Director:</b>Siddharth Anand</p>
+                <p><b>Duration:</b>166 minutes|<b>Language:</b>Hindi</p>
+                <p><b>Writers : </b>Siddharth Anand . Ramon Chibb</p>
+                <p><b>Stars : </b>Hrithik Roshan . Deepika Padukone . Anil Kapoor</p>
+                <div><a  class="catalogue_w1" href="../PROJECT/movie_ditails.html"><b>View More Ditels</b></a></div>
+            </div>
+        </div>
+        <div>
+            <h1>#Spider-Man: Brand New Day</h1>
+        </div>
+        <div class="parti">
+            <div>
+                <img src="../midia/spiderman.webp" alt="Spider-Man: Brand New Day" width="200px" class="catalogue">
+            </div>
+            <div class="catalogue_w">
+                <h2>Spider-Man: Brand New Day</h2>
+                <p><b>Rating:</b>★ 8.1</p>
+                <p><b>Genre:</b>Action</p>
+                <p><b>Director:</b>Destin Daniel Cretton</p>
+                <p><b>Duration:</b>145 minutes|<b>Language:</b>English</p>
+                <p><b>Writers : </b>Chris McKenna . Erik Sommers . Stan Lee</p>
+                <p><b>Stars : </b>Tom Holland . Zendaya . Mark Ruffalo</p>
+                <div><a class="catalogue_w1" href="../PROJECT/movie_ditails.html"><b>View More Ditels</b></a></div>
+            </div>
+        </div>
+        <div>
+            <h1>#Swades</h1>
+        </div>
+        <div class="parti">
+            <div>
+                <img src="../midia/swades.jpg" alt="Swades" width="200px" class="catalogue">
+            </div>
+            <div class="catalogue_w">
+                <h2>Swades</h2>
+                <p><b>Rating:</b>★ 8.2</p>
+                <p><b>Genre:</b>Drama</p>
+                <p><b>Director:</b>Ashutosh Gowariker</p>
+                <p><b>Duration:</b>189 minutes|<b>Language:</b>Hindi</p>
+                <p><b>Writers : </b>M.G. Sathya . Ashutosh Gowariker . Sameer Sharma</p>
+                <p><b>Stars : </b>Shah Rukh Khan . Gayatri Joshi</p>
+                <div><a  class="catalogue_w1" href="../PROJECT/movie_ditails.html"><b>View More Ditels</b></a></div>
+            </div>
+        </div>
+        <div>
+            <h1>#Brahmāstra: Part One – Shiva</h1>
+        </div>
+        <div class="parti">
+            <div>
+                <img src="../midia/brahmastra.webp" alt="Brahmāstra: Part One – Shiva" width="200px" class="catalogue">
+            </div>
+            <div class="catalogue_w">
+                <h2>Brahmāstra: Part One – Shiva</h2>
+                <p><b>Rating:</b>★ 5.6</p>
+                <p><b>Genre:</b>Action/Adventure</p>
+                <p><b>Director:</b>Ayan Mukerji</p>
+                <p><b>Duration:</b>207 minutes|<b>Language:</b>Hindi</p>
+                <p><b>Writers : </b>Hussain Dalal . Ayan Mukerji</p>
+                <p><b>Stars : </b>Amitabh Bachchan . Ranbir Kapoor . Alia Bhatt</p>
+                <div><a class="catalogue_w1" href="../PROJECT/movie_ditails.html"><b>View More Ditels</b></a></div>
+            </div>
+        </div>
+        <div>
+            <h1>#Titanic</h1>
+        </div>
+        <div class="parti">
+            <div>
+                <img src="../midia/titanic.webp" alt="Titanic" width="200px" class="catalogue">
+            </div>
+            <div class="catalogue_w">
+                <h2>Titanic</h2>
+                <p><b>Rating:</b>★ 8.0</p>
+                <p><b>Genre:</b>Romance/Drama</p>
+                <p><b>Director:</b>James Cameron</p>
+                <p><b>Duration:</b>194 minutes|<b>Language:</b>English</p>
+                <p><b>Writers : </b>James Cameron</p>
+                <p><b>Stars : </b>Leonardo DiCaprio . Kate Winslet . Billy Zane</p>
+                <div><a  class="catalogue_w1" href="../PROJECT/movie_ditails.html"><b>View More Ditels</b></a></div>
+            </div>
+        </div>
         <div>
             <hr>
             <h2>Page Navigation</h2>
             <p>
                 showing page 1 of 2
             </p>
-            <ul>
-                <li>
-                    <a href="../PROJECT/home.html"> perivos page</a>
-                </li>
-                <li>
-                    1
-                </li>
-                <li>
-                    <a href="../PROJECT/catalogue_2.html">to go 2</a>
-                </li>
-            </ul>
+            <div class="navigation_page">
+                <div><a class="navigation_page_a1" href="../PROJECT/home.html"> << </a></div>
+                <div><a href="../PROJECT/catalogue_2.html"> >> </a></div>
+            </div>
         </div>
     </main>
     <br>
-    <br>
     <hr>
     <footer>
-
+        <div class="name">
+            <div class="welcome_note_sepret">
+                <div class="welcome_note_left">Movie</div>
+                <div class="welcome_note_right">Max</div>
+            </div>
+        </div>
+        <div class="footer_div">
+            <div class="a1">
+                <b><u>COMPANY</u></b><br><br>
+                <a href="">About Us</a><br>
+                <a href="">Contact Us</a><br>
+                <a href="Inquiry(LIGHT).html">Feedback</a><br>
+            </div>
+            <div class="a1">
+                <b><u>GET INVOLVED</u></b><br><br>
+                <a href="">Add New Movies</a><br>
+            </div>
+            <div class="a1">
+                <b><u>LEGAL</u></b><br><br>
+                <a href="">Terms Of Use</a><br>
+                <a href="">Privacy Policy</a><br>
+                <a href="">Your Privacy Rights</a><br>
+            </div>
+            <div class="a1">
+                <b><u>CONNECT US</u></b><br><br>
+                <a href=""><img src="IMAGES\google-playstore.webp" width="100px" height="50px"> <br></a>
+                <a href=""><img src="IMAGES\ios-appstore.webp" width="100px" height="50px"></a><br>
+            </div>
+        </div>
         <p>© 2026 My Website | All Rights Reserved</p>
-
     </footer>
 </body>
 
