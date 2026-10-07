@@ -1,9 +1,11 @@
 * {
     color: aliceblue;
 }
+
 body {
     background-color: rgba(0, 0, 0, 0.945);
 }
+
 .navi {
     display: flex;
     gap: 250px;
@@ -12,6 +14,7 @@ body {
     margin-top: 50px;
     margin-bottom: 20px;
 }
+
 a {
     text-decoration: none;
     font-size: larger;
@@ -28,21 +31,25 @@ a {
     /* background-color: rgba(220, 213, 213, 0.646); */
     background-color: rgba(128, 128, 128, 0.25);
 }
-.welcome_note{
+
+.welcome_note {
     font-size: 45px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 20px;
-   padding-top: 20px;
+    padding-top: 20px;
 }
-.welcome_note_sepret{
+
+.welcome_note_sepret {
 
     display: flex;
     margin-left: 60px;
 }
-.welcome_note_right{
+
+.welcome_note_right {
     color: red;
 }
-.serch_bar{
+
+.serch_bar {
     padding-top: 20px;
     margin-left: 210px;
     font-size: xx-large;
@@ -50,60 +57,73 @@ a {
 
 
 }
-.mai_sherch_area{
+
+.mai_sherch_area {
     display: flex;
 }
-label{
+
+label {
     /* font-weight: 200; */
     height: 33px;
     font-style: initial;
     padding-right: 50px;
 }
-input{
+
+input {
     height: 33px;
     width: 700px;
     border-radius: 7px;
-}input:focus{
+}
+
+input:focus {
 
     outline: none;
-    border: 3px solid rgba(74, 74, 230, 0.678) ;
+    border: 3px solid rgba(74, 74, 230, 0.678);
 }
-.category{
+
+.category {
     margin-top: 50px;
     padding: 20px;
 }
-.category_hading{
+
+.category_hading {
     font-size: 45px;
     margin-bottom: 40px;
     color: red;
 }
-.category_img{
+
+.category_img {
     display: flex;
 }
-.category_romance{
+
+.category_romance {
     margin-left: 75px;
     height: 120px;
     width: 250px;
     border-radius: 12px;
 }
+
 .category_sci-fi {
     margin-left: 85px;
     height: 120px;
     width: 250px;
     border-radius: 12px;
 }
-.category_comady{
+
+.category_comady {
     margin-left: 95px;
     height: 120px;
     width: 250px;
     border-radius: 12px;
 }
-.category_action{
+
+.category_action {
     margin-left: 105px;
     height: 120px;
     width: 250px;
     border-radius: 12px;
 }
+
 .category_romance:hover {
     margin-left: 75px;
     height: 120px;
@@ -112,7 +132,7 @@ input{
     transform: scale(1.1);
 }
 
-.category_sci-fi:hover{
+.category_sci-fi:hover {
     margin-left: 85px;
     height: 120px;
     width: 250px;
@@ -135,42 +155,236 @@ input{
     border-radius: 12px;
     transform: scale(1.1);
 }
-.trending_titel{
+
+.trending_titel {
     font-size: xx-large;
     margin-top: 20px;
     margin-left: 25px;
 }
-.trending_movies_inside{
+
+.trending_movies_inside {
     width: 20%;
     padding: 30px;
 }
-.trending_movies_inside:hover{
+
+.trending_movies_inside:hover {
     transform: scale(1.1);
 }
-.trending_movies{
+
+.trending_movies {
     /* height: 50px;
     width: 70px; */
     padding: 40px;
     display: flexbox;
 
 }
-footer{
+
+footer {
 
     height: 200px;
 }
-.name{
+
+.name {
     margin-top: 20px;
     font-size: xx-large;
     margin-right: 70px;
 
 }
-.footer_div{
+
+.footer_div {
     gap: 20px;
     display: flex;
     margin-left: 400px;
 }
-.a1{
+
+.a1 {
     /* padding-bottom: 20px; */
     margin-right: 120px;
 }
 
+@media (max-width: 600px) {
+    .logo {
+        width: 180px;
+        height: auto;
+    }
+
+
+
+
+    .navi {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        padding-left: 0;
+        margin-left: 0;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .link {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+
+    .link a {
+        display: block;
+        font-size: 18px;
+    }
+
+
+
+
+    .mai_sherch_area {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .welcome_note {
+        font-size: 35px;
+        margin-left: 10px;
+        padding-top: 15px;
+    }
+
+    .welcome_note_sepret {
+        margin-left: 30px;
+    }
+
+    .serch_bar {
+        padding-top: 10px;
+        margin-left: 10px;
+        margin-top: 15px;
+        font-size: 20px;
+    }
+
+    label {
+        display: block;
+        padding-right: 0;
+        margin-bottom: 8px;
+    }
+
+    input {
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 100%;
+        height: 40px;
+    }
+
+
+
+    .category {
+        margin-top: 30px;
+        padding: 10px;
+    }
+
+    .category_hading {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .category_img {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .category_romance,
+    .category_sci-fi,
+    .category_comady,
+    .category_action {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+
+        margin-left: 0;
+        border-radius: 12px;
+    }
+
+
+
+
+    .category_romance:hover,
+    .category_sci-fi:hover,
+    .category_comady:hover,
+    .category_action:hover {
+        margin-left: 0;
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+
+        transform: scale(1.03);
+    }
+
+
+
+    .trending_titel {
+        font-size: 28px;
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+
+    .trending_movies {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 15px;
+    }
+
+    .trending_movies_inside {
+        width: 100%;
+        padding: 0;
+    }
+
+    .trending_movies_inside:hover {
+        transform: scale(1.03);
+    }
+
+
+
+
+    h1 {
+        font-size: 28px;
+        margin-left: 10px;
+    }
+
+    table {
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+
+
+
+
+    footer {
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .name {
+        margin-top: 10px;
+        margin-right: 0;
+        font-size: 28px;
+    }
+
+    .footer_div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+
+        margin-left: 0;
+        margin-top: 25px;
+    }
+
+    .a1 {
+        margin-right: 0;
+    }
+
+    footer p {
+        font-size: 14px;
+        margin-top: 25px;
+    }
+
+}
