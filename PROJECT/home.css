@@ -37,6 +37,19 @@ a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 20px;
     padding-top: 20px;
+    animation: welcomeFadeIn 1.2s ease-out;
+}
+
+@keyframes welcomeFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .welcome_note_sepret {
@@ -69,14 +82,25 @@ label {
     padding-right: 50px;
 }
 
-input {
+input[type="text"] {
     height: 33px;
     width: 700px;
     border-radius: 7px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    height: 35px;
+    width: 120px;
+    border-radius: 7px;
+    cursor: pointer;
 }
 
 input:focus {
-
     outline: none;
     border: 3px solid rgba(74, 74, 230, 0.678);
 }
@@ -245,6 +269,7 @@ footer {
         font-size: 35px;
         margin-left: 10px;
         padding-top: 15px;
+        animation: none;
     }
 
     .welcome_note_sepret {
@@ -264,11 +289,16 @@ footer {
         margin-bottom: 8px;
     }
 
-    input {
-        box-sizing: border-box;
+    input[type="text"] {
         width: 100%;
         max-width: 100%;
         height: 40px;
+    }
+
+    input[type="submit"] {
+        width: 120px;
+        height: 40px;
+        margin-top: 10px;
     }
 
 
